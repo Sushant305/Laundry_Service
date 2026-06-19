@@ -1,39 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px 40px;
-    border:1px solid black;
+    position: relative;
+    text-align: center;
+    height: 80px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Logo Section */
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo img,
+.logo p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo p{
+    font-family: "Style Script", cursive;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 .logo img{
-    width:80px;
-    height:auto;
+    width: 100px;
+    height: 60px;
 }
 
-nav ul{
-    list-style:none;
+/* Navigation Section */
+.nav-bar{
+    display: inline-block;
+    line-height: 80px;
 }
 
-nav ul li{
-    display:inline-block;
-    margin:0 15px;
+.nav-bar ul{
+    list-style: none;
 }
 
-nav ul li a{
-    text-decoration:none;
-    color:black;
-    font-size:18px;
-    font-weight:500;
+.nav-bar ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+/* User Button Section */
+.user{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .user button{
-    padding:10px 20px;
-    cursor:pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a3e3fa;
+    color: rgb(82, 167, 247);
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
 }
