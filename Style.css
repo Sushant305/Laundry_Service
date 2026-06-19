@@ -1,19 +1,39 @@
 *{
     margin:0;
     padding:0;
-    border: 1px solid black;
+    box-sizing:border-box;
 }
-.logo{
-    display:inline-block;
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    border:1px solid black;
 }
-nav{
-    display:inline-block;
+
+.logo img{
+    width:80px;
+    height:auto;
 }
-ul li{
-    display:inline;
-}
-ul li  a{
-    text-decoration:none;
+
+nav ul{
     list-style:none;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:0 15px;
+}
+
+nav ul li a{
+    text-decoration:none;
     color:black;
+    font-size:18px;
+    font-weight:500;
+}
+
+.user button{
+    padding:10px 20px;
+    cursor:pointer;
 }
