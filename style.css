@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    text-align: center;
+    height: 80px;
+    box-shadow: 4px 7px 4px rgb(184 180 180 / 42%);
+}
+
+/* Logo Section */
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo img,
+.logo p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo p{
+    font-family: "Style Script", cursive;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+
+/* Navigation Section */
+.nav-bar{
+    display: inline-block;
+    line-height: 80px;
+}
+
+.nav-bar ul{
+    list-style: none;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+/* User Button Section */
+.user{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.user button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1ea7fd;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.hero{
+    width: 100%;
+    padding: 60px 80px;
+    background-color: #f7f7f7;
+}
+
+.hero-content,
+.hero-image{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hero-content{
+    width: 45%;
+}
+
+.hero-image{
+    width: 45%;
+    text-align: right;
+}
+
+.hero-image img{
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.hero-content h1{
+    font-size: 55px;
+    line-height: 1.2;
+    color: #3c4858;
+    margin-bottom: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.hero-content h1 span{
+    color: #1ea7fd;
+}
+
+.hero-content p{
+    font-size: 20px;
+    color: #9a9a9a;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.hero-content button{
+    padding: 18px 45px;  
+    background-color: #1ea7fd;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-content button:hover{
+    transform: scale(1);
+}
