@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    border: 1px solid black;
+}
+.logo{
+    display:inline-block;
+}
+nav{
+    display:inline-block;
+}
+ul li{
+    display:inline;
+}
+ul li  a{
+    text-decoration:none;
+    list-style:none;
+    color:black;
+}
